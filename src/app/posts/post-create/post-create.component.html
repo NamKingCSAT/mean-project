@@ -1,5 +1,5 @@
 <mat-card>
-  <form onsubmit="onAddPost(postForm)" #postForm="ngForm">
+  <form (submit)="onAddPost(postForm)" #postForm="ngForm">
     <mat-form-field>
       <input
         matInput
